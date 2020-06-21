@@ -81,6 +81,15 @@ export default {
   },
   mounted () {
     this.callGitHub()
+    // axios.get('http://localhost:8080/instanalitic/evaluation/evaluator')
+    //     .then(response => {
+    //       console.log('instanalitic Response:', response)
+
+    //     })
+    //     .catch(error => {
+    //       // Request failed.
+    //       console.log('error', error.response)
+    //     })
   }
 }
 </script>
